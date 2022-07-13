@@ -76,4 +76,12 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
             tableView.reloadData()
         }
     }
+    
+
+    
+    @IBAction func back(){
+        self.dismiss(animated: true, completion: nil)
+    }
+
+    
 }
